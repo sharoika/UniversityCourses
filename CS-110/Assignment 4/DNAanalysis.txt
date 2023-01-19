@@ -1,0 +1,8 @@
+Records for sickle-cell anemia:
+Person A is normal.
+Person B is carrier.
+Person C is normal.
+Person D is anemic.
+
+Records for genetic relation: 
+A is related to B.

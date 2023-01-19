@@ -1,0 +1,25 @@
+http://www.webdev.cs.uregina.ca/~msr456/assignment5/login.php
+
+_log.txt = current file with information
+
+/uploads/ = contains user profile icons
+/images/ = contains logo
+/css/ = contains css file for visuals
+/js/eventHandlers.js = js to attach handlers to various inputs
+/js/eventRegisterJokeDetail.js = js to get more joke details
+/js/eventRegisterJokeList.js = js create a joke list and update it
+/js/eventRegisterLogin.js = js to verify login inputs
+/js/eventRegisterSignup.js = js to verify the signup inputs
+/js/eventRegisterPostJoke.js = js to verify posting the joke 
+
+db.php = information for database login
+jokedetail.php = page for joke details
+jokelist.php = page that lists all the jokelist
+login.php = the login page
+logout.php = the page to help unset variables for logout
+postjoke.php = the page for posting a joke
+signup.php = the page for signup
+
+ajax_backend_A.php - the backend for task 1
+ajax_backend_B.php - the backend for task 2
+ajax_backend_C.php - the backend for task 3

@@ -1,0 +1,48 @@
+Pre-Installation Checklist
+
+The following items are required for the use of the ShroomBase application:
+
+1	Node.js with NPM
+	https://radixweb.com/blog/installing-npm-and-nodejs-on-windows-and-mac
+
+2	MongoDB
+	https://www.mongodb.com/docs/manual/installation/
+
+3	ShroomBaseApplication
+	https://github.com/Picard-ENSE374/Picard-374Project/tree/main/ShroomBaseApplication
+
+
+
+Installation and Configuring Procedure
+
+The installation and running procedure contains the following steps:
+
+1	Ensure that you have a working Node.js with NPM installation. 
+
+2	Ensure that you have a working MongoDB installation.
+
+3	Ensure that your ShroomBaseApplication folder is in a location that it is visible to both Node.js and MongoDB.
+
+4	Run the commands:
+4.1	" npm init "
+4.2	" npm i express ejs mongoose "
+4.3	" npm i passport passport-local passport-local-mongoose express-session dotenv " 
+
+5	You will need to load the correct data and tables into MongoDB, run our load file with " node load.js ", after a few seconds close the operation by clicking 'ctrl' + 'C'.
+
+6	Lastly, you may run our application using the command " node app.js ". 
+
+Running on: http://localhost:3000/
+
+
+Post-Installation Tasks
+
+After you’ve completed the installation, you want to check that everything works fine.
+
+1	Check wether you're able to login, signup, and change your password. 
+	-> If not, please reinstall passport.
+
+2	Check whether you're able to view mushrooms, favourite mushrooms, and search for mushrooms.
+	-> If not, please re-run load.js and reinstall MongoDB with mongoose. 
+
+3	If other issues persist please contact our support line by texting: 639 571 3016. 

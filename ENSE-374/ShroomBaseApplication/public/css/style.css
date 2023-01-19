@@ -1,0 +1,369 @@
+body {
+  background-color: #545B5A;
+  padding: 0px;
+  margin: 0px;
+}
+
+.img-mush {
+  max-width: 100%;
+  max-height: 50%;
+  object-fit: none; 
+  border-radius: 20px;
+}
+
+p {
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+h1 {
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+h2 {
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+
+h3 {
+  color: black;
+  padding: 0px;
+  margin: 0px;
+}
+
+a {
+  color: #f1f1f1;
+  font-size: 20px;
+}
+
+#alignLeft {
+  float:left;
+  background:#545B5A;
+  width:25%;
+  text-align: left;
+}
+#alignCenter{
+  float:left;
+  background:#545B5A;
+  width:50%;
+  text-align: center;
+}
+#alignRight{
+  float:right;
+  background:#545B5A;
+  width:25%;
+}
+
+#createImageBox{
+  background:#C0DFD9;
+  margin: 10px; 
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#createBox{
+  background:#C0DFD9;
+  margin: 10px; 
+  padding: 20px;
+  border-radius: 30px;
+}
+
+#createBorderBox{
+  border-style: solid;
+
+}
+
+* {
+  box-sizing: border-box;
+}
+nav {
+  float: left;
+  width: 15%;
+  background: #ccc;
+  padding: 20px;
+}
+
+nav ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+header {
+  background-color: #545B5A;
+  padding-bottom: 10px;
+  margin: 0px;
+  text-align: center;
+  font-size: 28px;
+  color: black;
+}
+
+section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+section::after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 30px;
+  padding-top: 60px;
+  text-align: center;
+  color: white;
+}
+
+footer {
+  padding: 0px;
+  text-align: center;
+  color: black;
+}
+
+.mushroomMenu {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: rgb(214, 214, 214);
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.mushroomMenu a {
+
+  padding: 8px 8px 8px 8px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  border-top-style: solid;
+  transition: 0.3s;
+}
+
+.a1 {
+  padding: 8px 8px 8px 0px;
+  text-decoration: none;
+  font-size: 25px;
+  color: black;
+  display: block;
+  border-top-style: solid;
+  transition: 0.3s;
+}
+
+.mushroomMenu a:hover {
+  color: #f1f1f1;
+}
+
+.mushroomMenu .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: black;
+  min-width: 200px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  padding: 12px 16px;
+  z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.box {
+  width: auto;
+  background-color: #C0DFD9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  margin: 100px auto 100px auto;
+}
+
+.box-top {
+  width: auto;
+  background-color: #C0DFD9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+  margin: 00px auto 00px auto;
+}
+
+.box-bottom {
+  width: auto;
+  background-color: #C0DFD9;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin: 50px auto 10px auto;
+  padding: 0px;
+}
+
+#email {
+  padding-top: 5px;
+  color: #0275d8;
+}
+
+#todo {
+  max-width: 600px;
+}
+
+#loginbutton {
+  background-color: #C0DFD9;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+.crossedout {
+  text-decoration: line-through;
+}
+
+.accordion {
+  background-color: #C0DFD9;
+  --bs-accordion-btn-color: black;
+}
+
+.accordion-item {
+  background-color: #C0DFD9;
+}
+
+.accordion-body {
+  background-color: #C0DFD9;
+}
+
+#collapseOne {
+  background-color: #C0DFD9;
+}
+
+.accordion-button {
+  background-color: #C0DFD9;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #C0DFD9;
+}
+
+.accordion-button:not(.collapsed) {
+  color: black;
+}
+
+.btn-primary {
+  margin-top: 30px;
+  --bs-btn-color: white;
+  --bs-btn-bg: black;
+  --bs-btn-border-color: #fff;
+  --bs-btn-hover-color: black;
+  --bs-btn-hover-bg: #fff;
+  --bs-btn-hover-border-color: #fff;
+  --bs-btn-focus-shadow-rgb: 49,132,253;
+  --bs-btn-active-color: #fff;
+  --bs-btn-active-bg: #fff;
+  --bs-btn-active-border-color: #fff;
+  --bs-btn-active-shadow: inset 0 3px 5pxrgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #fff;
+  --bs-btn-disabled-bg: #fff;
+  --bs-btn-disabled-border-color: #fff;
+}
+
+.accordion-item:first-of-type .accordion-button {
+  --bs-btn-color: #FFFFFF;
+}
+
+.accordion-item:last-of-type .accordion-button.collapsed {
+  --bs-btn-color: #FFFFFF;
+}
+
+.forn 
+
+.form-label {
+  color: black;
+  font-size: 20px;
+}
+
+.search {
+  padding-left: 30px;
+}
+
+.white {
+  color: white;
+  padding: 10px;
+}
+
+.search-container {
+  max-width: 600px;
+  padding-left: 5px;
+  padding-right: 5px;
+  padding-bottom: 5px;
+}
+
+.search_search {
+  display: block;
+  width: 100%; 
+  font-size: 18px;
+  font-weight: 600;
+  color: black;
+  padding: 10px;
+  border: 2px solid black;
+}
+
+.search-container form {
+  position: relative;
+  position: right;
+}
+.search-container form button {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 50px;
+  background: transparent;
+  border: transparent;
+  font-size: 20px;
+  color: black;
+  cursor: pointer;
+  outline: 0;
+}
+
+.searchbutton{
+  background-color: black;
+  color: black;
+}
+
+.mushroomdiv1 {
+  display: inline-block;
+  vertical-align: top;
+  width: 84%;
+  padding: 0.5rem;
+}
+
+.mushroomdiv2 {
+  display: inline-block;
+  vertical-align: top;
+  width: 10%;
+  padding: 0.5rem;
+}

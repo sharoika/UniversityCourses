@@ -1,0 +1,13 @@
+Inputed Tons: 7
+
+---Conversion Factors---
+Tons to Pounds: 2000
+Tons to Ounces: 32000
+Tons to Kilograms: 907.185
+Tons to Grams: 907185
+
+---The Outputs---
+Pounds: 14000
+Ounces: 224000
+Kilograms: 6350.295
+Grams: 6350295
