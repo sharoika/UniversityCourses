@@ -1,6 +1,6 @@
 # University Courses
 
-#### ENSE-374
+#### [ENSE-374](https://github.com/sharoika/UniversityCourses/tree/main/ENSE-374)
 In this class we created ShroomBase a Mushroom Wikipedia the project was created in NODEJS, MongoDB, PassPort, and EJS.
 
 #### ENSE-271
