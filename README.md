@@ -3,8 +3,14 @@
 #### [ENSE-374](https://github.com/sharoika/UniversityCourses/tree/main/ENSE-374)
 In this class we created ShroomBase a Mushroom Wikipedia the project was created in NODEJS, MongoDB, PassPort, and EJS.
 
+#### [ENSE-352](https://github.com/sharoika/UniversityCourses/tree/main/ENSE-352)
+Embedded electronics and the Linux kernal - creating a battleship embedded project. 
+
 #### [ENSE-271](https://github.com/sharoika/UniversityCourses/tree/main/ENSE-271)
 In this class we created a Regina Foodbank Website the project was created in WordPress and allowed for food hamper booking and delivery.
+
+#### [CS-340](https://github.com/sharoika/UniversityCourses/tree/main/CS-340)
+Advanced algorithm analysis; Big-O, Big-Omega, Little-o, Theta and typical complexity classes, Priority Queues, Sorting, Graph Algorithms, and Unsolvability. 
 
 #### [CS-215](https://github.com/sharoika/UniversityCourses/tree/main/CS-215)
 This course was the basics of web development; we used HTML, CSS, JavaScript, PHP, and AJAX to create a semester long project.
