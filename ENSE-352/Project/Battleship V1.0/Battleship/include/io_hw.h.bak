@@ -1,0 +1,12 @@
+void turnOnClocks(void);
+
+void configurePorts(void);
+
+void toogleLights (bool on);
+
+void toggleLight1(bool);
+void toggleLight2(bool);
+void toggleLight3(bool);
+void toggleLight4(bool);
+
+void listenSwitches(void); xzzzzzzzzzzzzzzzzzzzzzzzzzzz
